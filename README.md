@@ -1,47 +1,32 @@
-Submitted by: **Miguel Gomez**
+🕹️ Tic-Tac-Toe
+Submitted by: Miguel Gomez
 
-**Tic-Tac-Toe** is an app that an app made for the person who just loves to play with the classic version 
-Time spent: **120** hours spent in total
+Tic-Tac-Toe is a classic game app designed for those who love to play Tic-Tac-Toe. This app is built using SwiftUI and incorporates modern design principles and persistent state management.
 
-## Required Features
+Time spent: 120 hours in total
 
-The following **required** functionality is completed:
+✨ Features
+Required Features
+ App displays a fully functional Tic-Tac-Toe board.
+ Players can take turns to place their marks (X or O) on the board.
+ App determines and displays the winner once a player gets three marks in a row (horizontally, vertically, or diagonally).
+ Users can reset the game to start a new match.
+ Session persists when the application is closed and relaunched (current game state is saved).
+ Note: You have to quit the app, not minimize it, to see the persistence.
+Additional Features
+ A player score tracker to keep track of wins for each player.
+ Ambient colors and stylish fonts for an enhanced visual experience.
+ Sound effects for moves and win notifications.
+ A simple and intuitive user interface designed with SwiftUI.
+ The game board dynamically adjusts to different screen sizes for optimal user experience.
+📹 Video Walkthrough
+Here is a demonstration of the Tic-Tac-Toe app:
 
-- [ ] App displays upper left to right cross
-- [ ] Users can add tasks to the list
-- [ ] Session persists when application is closed and relaunched (tasks dont get deleted when closing app) 
-  - [ ] Note: You have to quit the app, not minimize it, in order to see the persistence.
-- [ ] Tasks can be deleted
-- [ ] Users have a calendar view via navigation controller that displays tasks	
+<div style="background-color: #2C2C2C; padding: 10px; border-radius: 5px;"> <a href="https://www.loom.com/share/8b2e375dee5b42ff8e554bfa9913f066" style="color: #FFF; text-decoration: none;"> <p>🎥 Creating a Tic-Tac-Toe App with SwiftUI - Watch Video</p> </a> <a href="https://www.loom.com/share/8b2e375dee5b42ff8e554bfa9913f066" style="text-decoration: none;"> <img style="max-width: 300px; border: 1px solid #FFF;" src="https://cdn.loom.com/sessions/thumbnails/8b2e375dee5b42ff8e554bfa9913f066-8b0e71e7439d2ddc-full-play.gif" alt="Video Thumbnail"> </a> </div>
+📝 Notes
+During development, one of the main challenges was implementing the persistent state management to ensure the game state is saved when the app is closed. I was able to overcome this and implement a seamless user experience.
 
-
-The following **additional** features are implemented:
-
-- [ ] Tasks can be toggled completed
-- [ ] User can edit tasks by tapping on the task in the feed view
-- [ ] User can can quit app and restart it and the app will continue again to the same tasks left.
-- [ ] App would look nicer with ambient colors to background and font word change styles
-
-## Video Walkthrough
-
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-<div>
-    <a href="https://www.loom.com/share/8b2e375dee5b42ff8e554bfa9913f066">
-      <p>Creating a Tic-Tac_Toe App with SwiftUI - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/8b2e375dee5b42ff8e554bfa9913f066">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8b2e375dee5b42ff8e554bfa9913f066-8b0e71e7439d2ddc-full-play.gif">
-    </a>
-  </div>
-
-## Notes
-
-The challenges I met were to find a solution to integrate Calender,and task at the end of project-
-but I was able to finish the app completely.
-
-## License
-
+📜 License
     Copyright [2024] [Miguel A. Gomez]
 
     Licensed under the Apache License, Version 2.0 (the "License");
